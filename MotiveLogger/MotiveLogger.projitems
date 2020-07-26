@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d25e07f2-9de0-469a-af6b-67ee34ae9d74</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MotiveLogger</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ConsoleLogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DefaultLogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileLogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogLevel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TraceLogger.cs" />
+  </ItemGroup>
+</Project>
